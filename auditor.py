@@ -14,6 +14,7 @@ while user_input != 'quit':
             print("Inventory has exceeded 500 units")
             print("Total Units Processed ", inventory)
             print("Number of Failed/Rejected Entries ", rejected)
+            break
     else:
         rejected += 1
         print("Error: this input is not valid")
