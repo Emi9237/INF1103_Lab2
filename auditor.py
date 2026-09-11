@@ -14,3 +14,5 @@ while user_input != 'quit':
             print("Inventory has exceeded 500 units")
             print("Total Units Processed ", inventory)
             print("Number of Failed/Rejected Entries ", rejected)
+    else:
+        rejected += 1
