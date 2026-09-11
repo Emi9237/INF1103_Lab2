@@ -9,3 +9,5 @@ while user_input != 'quit':
 
     if user_input.isdigit():
         inventory += int(user_input)
+        if inventory > 500:
+            print("Inventory has exceeded 500 units")
