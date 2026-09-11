@@ -6,3 +6,6 @@ while user_input != 'quit':
 
     if user_input == 'quit':
         break
+
+    if user_input.isdigit():
+        inventory += int(user_input)
