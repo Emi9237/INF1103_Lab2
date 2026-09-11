@@ -16,3 +16,4 @@ while user_input != 'quit':
             print("Number of Failed/Rejected Entries ", rejected)
     else:
         rejected += 1
+        print("Error: this input is not valid")
