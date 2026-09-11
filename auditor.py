@@ -6,6 +6,8 @@ while user_input != 'quit':
     user_input = input("Enter stock quantity: ")
 
     if user_input == 'quit':
+        print("Total Units Processed ", inventory)
+        print("Number of Failed/Rejected Entries ", rejected)
         break
 
     if user_input.isdigit():
@@ -16,6 +18,3 @@ while user_input != 'quit':
     else:
         rejected += 1
         print("Error: this input is not valid")
-else:
-    print("Total Units Processed ", inventory)
-    print("Number of Failed/Rejected Entries ", rejected)
