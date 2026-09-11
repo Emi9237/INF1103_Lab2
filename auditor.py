@@ -12,9 +12,10 @@ while user_input != 'quit':
         inventory += int(user_input)
         if inventory > 500:
             print("Inventory has exceeded 500 units")
-            print("Total Units Processed ", inventory)
-            print("Number of Failed/Rejected Entries ", rejected)
             break
     else:
         rejected += 1
         print("Error: this input is not valid")
+else:
+    print("Total Units Processed ", inventory)
+    print("Number of Failed/Rejected Entries ", rejected)
