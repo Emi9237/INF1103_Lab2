@@ -11,3 +11,4 @@ while user_input != 'quit':
         inventory += int(user_input)
         if inventory > 500:
             print("Inventory has exceeded 500 units")
+            print("Total Units Processed ", inventory)
